@@ -5,7 +5,7 @@ function App() {
 
   useEffect(() => {
     // Spring Boot API 호출
-    fetch("http://localhost:8080/api/hello")
+    fetch("http://43.202.160.173:8080//api/hello")
         .then((response) => response.text())
         .then((data) => setMessage(data))
         .catch((error) => console.error("Error fetching data:", error));
