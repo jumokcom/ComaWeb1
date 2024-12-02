@@ -1,9 +1,0 @@
-spring:
-  datasource:
-    url: jdbc:mysql://comaweb1db-mysql.c906gj6k4cpi.ap-northeast-2.rds.amazonaws.com:3306/comaweb1db-mysql?serverTimezone=Asia/Seoul
-    username: root
-    password: jumok8374
-  jpa:
-    hibernate:
-      ddl-auto: update
-    show-sql: true

@@ -4,10 +4,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class HelloController {
+public class ConnectionController {
 
-    @GetMapping("/api/hello")
-    public String hello() {
-        return "test";
+    @GetMapping("/api/connection-status")
+    public String getConnectionStatus() {
+        return "Spring Boot + React 연결 성공";
     }
 }
