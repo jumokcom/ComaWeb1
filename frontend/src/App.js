@@ -133,7 +133,7 @@ function ConnectionStatus() {
 
     useEffect(() => {
         // Spring Boot API 호출
-        fetch("http://localhost:8080/api/connection-status")
+        fetch("http://43.202.160.173:8080/api/connection-status")
             .then((response) => response.text())
             .then((data) => setConnectionStatus(data))
             .catch((error) => console.error("Error fetching connection status:", error));
