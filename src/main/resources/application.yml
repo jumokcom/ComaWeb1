@@ -1,0 +1,19 @@
+server:
+  port: 8080  # 서버 포트
+  servlet:
+    context-path: /  # 기본 URL 경로
+
+spring:
+  application:
+    name: ComaWeb  # 애플리케이션 이름
+
+logging:
+  level:
+    root: INFO  # 전체 로그 수준
+    com.example: DEBUG  # 특정 패키지에 대해 DEBUG 로그 출력
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info  # Actuator 노출 엔드포인트
