@@ -16,4 +16,4 @@ npm 설치: npm install
 
 애플리케이션 실행 상태: ps -ef | grep java
 
-애플리케이션 종료: kill -9 <PID>
+애플리케이션 종료: kill -9 PID
