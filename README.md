@@ -4,6 +4,9 @@
 
 npm 설치: npm install
 
+npm 필요 패키지 설치: npm install react-router-dom styled-components
+
+
 프론트엔드 빌드: npm run build
 
 프론트엔드 빌드 폴더 복사: cp -r build/* ../src/main/resources/static/
