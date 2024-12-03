@@ -1,5 +1,7 @@
 폴더 삭제: rm -rf 폴더명
 
+깃 레포지토리 클론: git clone git@github.com:jumokcom/ComaWeb1.git
+
 폴더 이동: cd 폴더명
 
 상위 폴더 이동: cd ..
