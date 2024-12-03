@@ -1,11 +1,12 @@
-폴더 이동: cd <폴더명>
+폴더 삭제 rm -rf 폴더명
+
+폴더 이동: cd 폴더명
 
 상위 폴더 이동: cd ..
 
 npm 설치: npm install
 
 npm 필요 패키지 설치: npm install react-router-dom styled-components
-
 
 프론트엔드 빌드: npm run build
 
